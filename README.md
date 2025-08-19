@@ -71,43 +71,7 @@ The tool will display matches in the terminal with keywords highlighted in red.
 
 Results (including errors) are saved to the specified output file.
 
-Example Output
 
-Terminal Output:
-
-   ____ ___  ___  ____ ___  ___ _          
-  / ___/ _ \|  _ \| ___|_ _|___ \ ___  ___ 
- | |  | | | | | | |___ \| |  __) / __|/ __|
- | |__| |_| | |_| |___) | | / __/\__ \ (__ 
-  \____\___/|____/|____/___|_____|___/\___|
-
-author: adham heinrich
-
-Loaded 2 JS links.
-
-Enter your hints (comma-separated, e.g., promo,coupon,credentials): promo,coupon
-Enter the output file name (e.g., results.txt): results.txt
-
-Searching for: promo, coupon
-
-[+] Match found in: https://example.com/script.js (line 123)
-[4 lines before]
-function getDiscount() { return promo; }
-[4 lines after]
-================================================================================
-
-[+] Done! Total matches found: 1
-Results saved to: results.txt
-
-Output File (results.txt):
-
-JSSEARCHER Results
-Searching for: promo, coupon
-
-[+] Match found in: https://example.com/script.js (line 123)
-[4 lines before]
-function getDiscount() { return promo; }
-[4 lines after]
 ================================================================================
 
 Notes
@@ -116,7 +80,7 @@ Ensure the URLs in your input file are valid and accessible.
 
 
 
-Keywords are case-insensitive and must be whole words (e.g., promo won't match promotion).
+Keywords are case-insensitive and must be whole words (e.g., promo won't match promotion for being more accurate).
 
 
 
